@@ -1,97 +1,97 @@
 .container {
-	display: grid;
-	grid-template-columns: 1fr 3fr 3fr 1fr;
-	grid-template-rows: 150px 300px 300px 200px;
-	grid-template-areas:
-	"header header header header"
-	"nav main main main"
-	"nav main_2 main_2 main_2"
-	"footer footer footer footer"
+  display: grid;
+  grid-template-columns: 1fr 3fr 3fr 1fr;
+  grid-template-rows: 150px 300px 300px 200px;
+  grid-template-areas:
+    "header header header header"
+    "nav main main main"
+    "nav main_2 main_2 main_2"
+    "footer footer footer footer";
 }
 
 .item-header {
-	background: linear-gradient(45deg, #30cfd0, #330867);
-	grid-area: header;
-	border-radius: 15px;
-	margin: 5px;
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
+  background: linear-gradient(45deg, #30cfd0, #330867);
+  grid-area: header;
+  border-radius: 15px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .item-nav {
-	background: linear-gradient(45deg, #37ecba, #72afd3);
-	grid-area: nav;
-	border-radius: 15px;
-	margin: 5px;
+  background: linear-gradient(45deg, #37ecba, #72afd3);
+  grid-area: nav;
+  border-radius: 15px;
+  margin: 5px;
 }
 
 .item-nav button {
-    background-color: white;
-    border: none;
-	border-radius: 15px;
-    color: black;
-    padding: 35px 75px; /* Adjusted padding for demonstration */
-    margin: 1.9em auto; /* Removed auto for horizontal margin */
-    cursor: pointer;
-    width: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center; /* Center content horizontally */
-	transition: box-shadow 0.3s ease; /* Adding a transition for smooth effect */
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: bold;
+  background-color: white;
+  border: none;
+  border-radius: 15px;
+  color: black;
+  padding: 35px 75px; /* Adjusted padding for demonstration */
+  margin: 1.9em auto; /* Removed auto for horizontal margin */
+  cursor: pointer;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center content horizontally */
+  transition: box-shadow 0.3s ease; /* Adding a transition for smooth effect */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .item-nav button span {
-    font-size: 15px; /* Adjust the font size as needed */
+  font-size: 15px; /* Adjust the font size as needed */
 }
 
 .item-nav button:hover {
-	background-color: rgb(208, 208, 208);
-	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect on hover */
-  }
+  background-color: rgb(208, 208, 208);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Shadow effect on hover */
+}
 
 .item-main {
-	background: linear-gradient(45deg, #d299c2, #fef9d7);
-	grid-area: main;
-	border-radius: 15px;
-	margin: 5px;
+  background: linear-gradient(45deg, #d299c2, #fef9d7);
+  grid-area: main;
+  border-radius: 15px;
+  margin: 5px;
 }
 
 .item-main_2 {
-	background: linear-gradient(45deg, #6a85b6, #bac8e0);
-	grid-area: main_2;
-	border-radius: 15px;
-	margin: 5px;
+  background: linear-gradient(45deg, #6a85b6, #bac8e0);
+  grid-area: main_2;
+  border-radius: 15px;
+  margin: 5px;
 }
 
 .item-footer {
-	background-color: rgb(77, 77, 77);
-	grid-area: footer;
-	border-radius: 15px;
-	margin: 5px;
-	background: linear-gradient(45deg, #303030, #4000b8);
+  background-color: rgb(77, 77, 77);
+  grid-area: footer;
+  border-radius: 15px;
+  margin: 5px;
+  background: linear-gradient(45deg, #303030, #4000b8);
 }
 
 #logo {
-	display: block;
-	width: 8%;
-	border-radius: 15px;
+  display: block;
+  width: 8%;
+  border-radius: 15px;
 }
 
 #contact {
-	font-family: Arial, Helvetica, sans-serif;
-	text-align: center;
-	color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
 }
 
 h1 {
-	font-family: Arial, Helvetica, sans-serif;
-	text-align: center;
-	color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
 }
 
 p {
-	text-align: center
+  text-align: center;
 }
