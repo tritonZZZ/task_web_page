@@ -26,6 +26,30 @@
 	margin: 5px;
 }
 
+.item-nav button {
+    background-color: white;
+    border: none;
+	border-radius: 15px;
+    color: black;
+    padding: 35px 75px; /* Adjusted padding for demonstration */
+    margin: 1.9em auto; /* Removed auto for horizontal margin */
+    cursor: pointer;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center content horizontally */
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.item-nav button span {
+    font-size: 15px; /* Adjust the font size as needed */
+}
+
+.item-nav button:hover {
+	background-color: rgb(208, 208, 208);
+  }
+
 .item-main {
 	background: linear-gradient(45deg, #d299c2, #fef9d7);
 	grid-area: main;
@@ -51,7 +75,7 @@
 #logo {
 	display: block;
 	width: 8%;
-	border-radius: 15%;
+	border-radius: 15px;
 }
 
 #contact {
