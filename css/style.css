@@ -14,6 +14,8 @@
 	grid-area: header;
 	border-radius: 15px;
 	margin: 5px;
+	display: flex; /* Make the container a flexbox */
+	align-items: center; /* Align child elements vertically */
 }
 
 .item-nav {
@@ -43,6 +45,29 @@
 	border-radius: 15px;
 	margin: 5px;
 	background: linear-gradient(45deg, #303030, #4000b8);
+}
+
+#logo {
+	display: block;
+	margin: auto auto auto 2.1em;
+	width: 25%;
+	float:left;
+}
+
+#contact {
+	margin-top: .05em;
+	text-align: center;
+	margin: auto 2.1em auto auto;
+	color: white;
+	text-shadow: rgb(0, 0, 0) 1px 0 10px;
+}
+
+h1 {
+	margin-top: .05em;
+	text-align: center;
+	margin: auto;
+	color: white;
+	text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
 
 p {
