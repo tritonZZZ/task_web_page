@@ -14,8 +14,9 @@
 	grid-area: header;
 	border-radius: 15px;
 	margin: 5px;
-	display: flex; /* Make the container a flexbox */
-	align-items: center; /* Align child elements vertically */
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
 }
 
 .item-nav {
@@ -49,25 +50,20 @@
 
 #logo {
 	display: block;
-	margin: auto auto auto 2.1em;
-	width: 25%;
-	float:left;
+	width: 8%;
+	border-radius: 15%;
 }
 
 #contact {
-	margin-top: .05em;
+	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
-	margin: auto 2.1em auto auto;
 	color: white;
-	text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
 
 h1 {
-	margin-top: .05em;
+	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
-	margin: auto;
 	color: white;
-	text-shadow: rgb(0, 0, 0) 1px 0 10px;
 }
 
 p {
