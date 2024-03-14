@@ -32,30 +32,24 @@
   border-radius: 15px;
   color: black;
   padding: 35px 75px;
-  /* Adjusted padding for demonstration */
   margin: 1.9em auto;
-  /* Removed auto for horizontal margin */
   cursor: pointer;
   width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* Center content horizontally */
   transition: box-shadow 0.3s ease;
-  /* Adding a transition for smooth effect */
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
 }
 
 .item-nav button span {
   font-size: 15px;
-  /* Adjust the font size as needed */
 }
 
 .item-nav button:hover {
   background-color: rgb(208, 208, 208);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-  /* Shadow effect on hover */
 }
 
 .item-main {
@@ -140,6 +134,14 @@
 .socials img {
   width: 10%;
   margin-right: 10px;
+  transition: filter 0.3s ease;
+  transition: transform 0.3s ease;
+}
+
+.socials img:hover {
+  filter: drop-shadow(0 0 10px #222222);
+  filter: brightness(80%);
+  transform: rotate(360deg);
 }
 
 .footer-text {
