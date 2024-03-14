@@ -111,6 +111,14 @@
 	grid-area: main_2;
 	border-radius: 15px;
 	margin: 5px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.item-main_2 iframe {
+	width: 45%;
+	height: 85%;
 }
 
 .item-footer {
