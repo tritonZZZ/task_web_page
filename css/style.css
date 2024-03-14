@@ -113,6 +113,7 @@
 .item-main_2 iframe {
   width: 45%;
   height: 85%;
+  border-radius: 2%;
 }
 
 .item-footer {
@@ -160,6 +161,7 @@
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   color: white;
+  font-size: large;
 }
 
 h1 {
